@@ -6,11 +6,11 @@ README.md
 Revenue Leakage Detection Using Transaction-Level Finance Data
 
 # Business Context
--Organizations processing high volumes of financial transactions often experience discrepancies between expected revenue and actual revenue realized.
--These discrepancies may arise due to pricing errors, unauthorized discounts, billing inaccuracies, or incomplete invoicing.
--Although individual instances of revenue loss may appear insignificant, their cumulative impact can materially affect profitability, cash flow, and financial reporting accuracy. 
--Finance and analytics teams require data-driven approaches to systematically identify and analyze such revenue leakages.
--This project simulates a real-world finance analytics scenario where transaction-level data is analyzed to uncover hidden revenue losses and support stronger financial controls.
+- Organizations processing high volumes of financial transactions often experience discrepancies between expected revenue and actual revenue realized.  
+- These discrepancies may arise due to pricing errors, unauthorized discounts, billing inaccuracies, or incomplete invoicing.  
+- Although individual instances of revenue loss may appear insignificant, their cumulative impact can materially affect profitability, cash flow, and financial reporting accuracy.   
+- Finance and analytics teams require data-driven approaches to systematically identify and analyze such revenue leakages.  
+- This project simulates a real-world finance analytics scenario where transaction-level data is analyzed to uncover hidden revenue losses and support stronger financial controls.  
 
 # Problem Statement
 Despite stable or growing sales figures, the organization is experiencing a gap between expected revenue and actual billed revenue. The absence of detailed transaction-level analysis makes it difficult to pinpoint the sources and drivers of this revenue leakage.
