@@ -57,14 +57,26 @@ The primary objectives of this project are to:
 -Average Leakage per Transaction
 
 Monthly Leakage Trend – Tracks recurring or seasonal leakage patterns
-# Data Understanding & Assumptions
-## Data Overview
-•	Transaction-level pharmaceutical sales data
-•	Covers products, regions, hospitals, sales representatives, and payment types
-## Key Assumptions
-•	Unit price is constant per invoice
-•	Each invoice represents one sales interaction
-•	Data reflects completed and valid transactions only
+
+#Data Understanding
+-The dataset represents transaction-level financial records for a hypothetical organization. Each record corresponds to a single transaction and includes pricing, billing, customer, and geographic information.
+Key Data Elements:
+-Transaction Details: Transaction ID, Transaction Date
+-Product Information: Product ID, Product Category
+-Customer Information: Customer ID, Customer Segment
+-Geographic Information: Region
+-Pricing Information: List Price, Quantity, Discount Percentage
+-Billing Information: Expected Revenue, Actual Billed Amount
+-Invoice Status: Billed / Partially Billed / Unbilled
+
+## Business Assumptions
+-The analysis is based on the following assumptions:
+-Expected revenue is calculated as List Price × Quantity
+-Discounts are applied as a percentage of the list price
+-Actual billed amount reflects the final amount invoiced to the customer
+-Revenue leakage occurs when actual billed amount is less than expected revenue
+-Only positive differences between expected revenue and billed amount are considered as leakage
+-The dataset reflects operational inconsistencies commonly observed in real-world finance systems
 
 # Analytics Approach / Methodology
 ## Analytics Approach
