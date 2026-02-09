@@ -91,7 +91,7 @@ Missing values, duplicate records, pricing inconsistencies, and data type issues
 - Exploratory Data Analysis (EDA)
 SQL and Python used to analyze expected vs actual revenue, identify revenue leakage patterns, and uncover anomalies across products, customers, and regions.
 
-##Feature Engineering
+## Feature Engineering
 
 - Derived finance metrics such as expected revenue, revenue leakage, leakage percentage, and discount buckets.
 - Segmentation of transactions based on leakage severity and billing status
