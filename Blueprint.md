@@ -6,9 +6,11 @@ README.md
 Revenue Leakage Detection Using Transaction-Level Finance Data
 
 # Business Context
-Organizations processing high volumes of financial transactions often experience discrepancies between expected revenue and actual revenue realized. These discrepancies may arise due to pricing errors, unauthorized discounts, billing inaccuracies, or incomplete invoicing.
-Although individual instances of revenue loss may appear insignificant, their cumulative impact can materially affect profitability, cash flow, and financial reporting accuracy. Finance and analytics teams require data-driven approaches to systematically identify and analyze such revenue leakages.
-This project simulates a real-world finance analytics scenario where transaction-level data is analyzed to uncover hidden revenue losses and support stronger financial controls.
+-Organizations processing high volumes of financial transactions often experience discrepancies between expected revenue and actual revenue realized.
+-These discrepancies may arise due to pricing errors, unauthorized discounts, billing inaccuracies, or incomplete invoicing.
+-Although individual instances of revenue loss may appear insignificant, their cumulative impact can materially affect profitability, cash flow, and financial reporting accuracy. 
+-Finance and analytics teams require data-driven approaches to systematically identify and analyze such revenue leakages.
+-This project simulates a real-world finance analytics scenario where transaction-level data is analyzed to uncover hidden revenue losses and support stronger financial controls.
 
 # Problem Statement
 Despite stable or growing sales figures, the organization is experiencing a gap between expected revenue and actual billed revenue. The absence of detailed transaction-level analysis makes it difficult to pinpoint the sources and drivers of this revenue leakage.
@@ -82,13 +84,18 @@ Key Data Elements:
 ## Analytics Approach
 -Data Ingestion
 Transaction-level financial data ingested from Excel into a SQL database to enable structured querying and aggregation.
+
 -Data Cleaning & Validation
 Missing values, duplicate records, pricing inconsistencies, and data type issues handled using Python (Pandas) to ensure financial data accuracy.
+
 -Exploratory Data Analysis (EDA)
 SQL and Python used to analyze expected vs actual revenue, identify revenue leakage patterns, and uncover anomalies across products, customers, and regions.
+
 ##Feature Engineering
+
 -Derived finance metrics such as expected revenue, revenue leakage, leakage percentage, and discount buckets.
 -Segmentation of transactions based on leakage severity and billing status
+
 ##Visualization & Decision Support
 -Key insights translated into clear visualizations to highlight leakage drivers and high-risk segments.
 -Analytical outputs structured to support finance decision-making and revenue assurance actions.
@@ -110,9 +117,11 @@ Based on analytical findings, the project supports finance and leadership teams 
 
 # Scope, Constraints & Future Enhancements
 ## Scope & Constraints
+
 -Analysis is limited to the available transaction-level financial data and does not include upstream pricing approval or downstream collections data.
 -Revenue leakage assessment is dependent on the accuracy and completeness of billed amount and pricing fields.
 -Profitability and margin-level insights are constrained due to the absence of detailed cost data.
+
 ## Future Enhancements
 -Integration of cost and margin data to extend analysis from revenue leakage to end-to-end profitability assessment.
 -Development of predictive models to proactively flag high-risk transactions prone to revenue leakage.
