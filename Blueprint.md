@@ -96,7 +96,7 @@ SQL and Python used to analyze expected vs actual revenue, identify revenue leak
 - Derived finance metrics such as expected revenue, revenue leakage, leakage percentage, and discount buckets.
 - Segmentation of transactions based on leakage severity and billing status
 
-##Visualization & Decision Support
+## Visualization & Decision Support
 - Key insights translated into clear visualizations to highlight leakage drivers and high-risk segments.
 - Analytical outputs structured to support finance decision-making and revenue assurance actions.
 
