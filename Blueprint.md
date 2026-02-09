@@ -16,15 +16,15 @@ Revenue Leakage Detection Using Transaction-Level Finance Data
 Despite stable or growing sales figures, the organization is experiencing a gap between expected revenue and actual billed revenue. The absence of detailed transaction-level analysis makes it difficult to pinpoint the sources and drivers of this revenue leakage.
 
 There is a need to:
--Identify where revenue loss is occurring
--Quantify the financial impact of leakage
--Understand patterns across products, customers, and regions
+- Identify where revenue loss is occurring  
+- Quantify the financial impact of leakage  
+- Understand patterns across products, customers, and regions  
 
 # Business Objective 
 The primary objectives of this project are to:
--Detect and quantify revenue leakage at the transaction level
--Identify products, customers, and regions contributing disproportionately to revenue loss
--Analyze the impact of discounts and pricing deviations on revenue realization
+- Detect and quantify revenue leakage at the transaction level
+- Identify products, customers, and regions contributing disproportionately to revenue loss
+- Analyze the impact of discounts and pricing deviations on revenue realization
 
  #Stakeholder Questions This Project Answers
  ## Revenue Assurance and Leakage Control
@@ -34,71 +34,71 @@ The primary objectives of this project are to:
 - Are high-value transactions more prone to leakage than low-value ones?
 
 ## Pricing and Discount Governance
--Which discount levels are associated with the highest revenue leakage?
--Are discounts being applied consistently across products and customers?
--Are there transactions with zero discounts still exhibiting revenue leakage?
--Which products show frequent deviations from expected pricing?
+- Which discount levels are associated with the highest revenue leakage?
+- Are discounts being applied consistently across products and customers?
+- Are there transactions with zero discounts still exhibiting revenue leakage?
+- Which products show frequent deviations from expected pricing?
 
 ## Customer and Product Risk Profiling 
--Which customers or customer segments contribute disproportionately to revenue leakage?
--Are there repeat customers with consistent underbilling patterns?
--Which products or product categories have the highest leakage-to-revenue ratio?
--Are high-revenue products also high-risk from a leakage perspective?
+- Which customers or customer segments contribute disproportionately to revenue leakage?
+- Are there repeat customers with consistent underbilling patterns?
+- Which products or product categories have the highest leakage-to-revenue ratio?
+- Are high-revenue products also high-risk from a leakage perspective?
 
 ## Regional & Operational Insights
--Are certain regions consistently underperforming in revenue realization?
--Which regions exhibit recurring billing or invoicing issues?
--Is revenue leakage concentrated in specific operational units or locations?
--Do regional pricing practices differ significantly?
+- Are certain regions consistently underperforming in revenue realization?
+- Which regions exhibit recurring billing or invoicing issues?
+- Is revenue leakage concentrated in specific operational units or locations?
+- Do regional pricing practices differ significantly?
 
 # Key Success Metrics
--Total Revenue Leakage 
--Revenue Leakage % 
--Leakage Concentration (Pareto)
--Leakage by Discount Level 
--Average Leakage per Transaction
-
-Monthly Leakage Trend – Tracks recurring or seasonal leakage patterns
+- Total Revenue Leakage 
+- Revenue Leakage % 
+- Leakage Concentration (Pareto)
+- Leakage by Discount Level 
+- Average Leakage per Transaction
+- Monthly Leakage Trend
+– Tracks recurring or seasonal leakage patterns
 
 #Data Understanding
--The dataset represents transaction-level financial records for a hypothetical organization. Each record corresponds to a single transaction and includes pricing, billing, customer, and geographic information.
+- The dataset represents transaction-level financial records for a hypothetical organization. Each record corresponds to a single transaction and includes pricing, billing, customer, and geographic information.
 Key Data Elements:
--Transaction Details: Transaction ID, Transaction Date
--Product Information: Product ID, Product Category
--Customer Information: Customer ID, Customer Segment
--Geographic Information: Region
--Pricing Information: List Price, Quantity, Discount Percentage
--Billing Information: Expected Revenue, Actual Billed Amount
--Invoice Status: Billed / Partially Billed / Unbilled
+- Transaction Details: Transaction ID, Transaction Date
+- Product Information: Product ID, Product Category
+- Customer Information: Customer ID, Customer Segment
+- Geographic Information: Region
+- Pricing Information: List Price, Quantity, Discount Percentage
+- Billing Information: Expected Revenue, Actual Billed Amount
+- Invoice Status: Billed / Partially Billed / Unbilled
 
 ## Business Assumptions
--The analysis is based on the following assumptions:
--Expected revenue is calculated as List Price × Quantity
--Discounts are applied as a percentage of the list price
--Actual billed amount reflects the final amount invoiced to the customer
--Revenue leakage occurs when actual billed amount is less than expected revenue
--Only positive differences between expected revenue and billed amount are considered as leakage
--The dataset reflects operational inconsistencies commonly observed in real-world finance systems
+- The analysis is based on the following assumptions:
+- Expected revenue is calculated as List Price × Quantity
+- Discounts are applied as a percentage of the list price
+- Actual billed amount reflects the final amount invoiced to the customer
+- Revenue leakage occurs when actual billed amount is less than expected revenue
+- Only positive differences between expected revenue and billed amount are considered as leakage
+- The dataset reflects operational inconsistencies commonly observed in real-world finance systems
 
 # Analytics Approach / Methodology
 ## Analytics Approach
--Data Ingestion
+- Data Ingestion
 Transaction-level financial data ingested from Excel into a SQL database to enable structured querying and aggregation.
 
--Data Cleaning & Validation
+- Data Cleaning & Validation
 Missing values, duplicate records, pricing inconsistencies, and data type issues handled using Python (Pandas) to ensure financial data accuracy.
 
--Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 SQL and Python used to analyze expected vs actual revenue, identify revenue leakage patterns, and uncover anomalies across products, customers, and regions.
 
 ##Feature Engineering
 
--Derived finance metrics such as expected revenue, revenue leakage, leakage percentage, and discount buckets.
--Segmentation of transactions based on leakage severity and billing status
+- Derived finance metrics such as expected revenue, revenue leakage, leakage percentage, and discount buckets.
+- Segmentation of transactions based on leakage severity and billing status
 
 ##Visualization & Decision Support
--Key insights translated into clear visualizations to highlight leakage drivers and high-risk segments.
--Analytical outputs structured to support finance decision-making and revenue assurance actions.
+- Key insights translated into clear visualizations to highlight leakage drivers and high-risk segments.
+- Analytical outputs structured to support finance decision-making and revenue assurance actions.
 
 # Expected Insights
 The analysis is expected to uncover:
@@ -109,23 +109,23 @@ The analysis is expected to uncover:
 
 # Decision Enablement & Recommendation Framework
 Based on analytical findings, the project supports finance and leadership teams in:
--Prioritizing high-leakage products, customers, and regions for immediate corrective action
--Strengthening pricing and discount controls by identifying misuse and deviation patterns
--Improving billing accuracy and revenue realization through targeted process interventions
--Focusing audit and monitoring efforts on high-risk transactions and recurring leakage drivers
--Enhancing revenue assurance planning using time-based leakage and volatility trends
+- Prioritizing high-leakage products, customers, and regions for immediate corrective action
+- Strengthening pricing and discount controls by identifying misuse and deviation patterns
+- Improving billing accuracy and revenue realization through targeted process interventions
+- Focusing audit and monitoring efforts on high-risk transactions and recurring leakage drivers
+- Enhancing revenue assurance planning using time-based leakage and volatility trends
 
 # Scope, Constraints & Future Enhancements
 ## Scope & Constraints
 
--Analysis is limited to the available transaction-level financial data and does not include upstream pricing approval or downstream collections data.
--Revenue leakage assessment is dependent on the accuracy and completeness of billed amount and pricing fields.
--Profitability and margin-level insights are constrained due to the absence of detailed cost data.
+- Analysis is limited to the available transaction-level financial data and does not include upstream pricing approval or downstream collections data.
+- Revenue leakage assessment is dependent on the accuracy and completeness of billed amount and pricing fields.
+- Profitability and margin-level insights are constrained due to the absence of detailed cost data.
 
 ## Future Enhancements
--Integration of cost and margin data to extend analysis from revenue leakage to end-to-end profitability assessment.
--Development of predictive models to proactively flag high-risk transactions prone to revenue leakage.
--Automation of data ingestion and dashboard refresh through live database or API integrations.
+- Integration of cost and margin data to extend analysis from revenue leakage to end-to-end profitability assessment.
+- Development of predictive models to proactively flag high-risk transactions prone to revenue leakage.
+- Automation of data ingestion and dashboard refresh through live database or API integrations.
 
 # Tech Stack Used
 -	Python: Pandas, NumPy, Matplotlib
