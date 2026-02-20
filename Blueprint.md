@@ -2,7 +2,7 @@ README.md
 
 # PROJECT BLUEPRINT
 
-# Project Title
+## Project Title
 Revenue Leakage Detection Using Transaction-Level Finance Data
 
 # Business Context
