@@ -1,4 +1,3 @@
-README.md
 ## Finance Industry Overview
 
 The financial services industry plays a critical role in enabling global economic activity by facilitating transactions, managing capital flows, and ensuring financial accountability. Organizations across industries—banking, insurance, retail, SaaS, and manufacturing—process large volumes of financial transactions daily.
