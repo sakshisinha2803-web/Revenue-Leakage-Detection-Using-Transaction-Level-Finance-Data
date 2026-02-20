@@ -5,14 +5,14 @@ README.md
 ## Project Title
 Revenue Leakage Detection Using Transaction-Level Finance Data
 
-# Business Context
+## Business Context
 - Organizations processing high volumes of financial transactions often experience discrepancies between expected revenue and actual revenue realized.  
 - These discrepancies may arise due to pricing errors, unauthorized discounts, billing inaccuracies, or incomplete invoicing.  
 - Although individual instances of revenue loss may appear insignificant, their cumulative impact can materially affect profitability, cash flow, and financial reporting accuracy.   
 - Finance and analytics teams require data-driven approaches to systematically identify and analyze such revenue leakages.  
 - This project simulates a real-world finance analytics scenario where transaction-level data is analyzed to uncover hidden revenue losses and support stronger financial controls.  
 
-# Problem Statement
+## Problem Statement
 Despite stable or growing sales figures, the organization is experiencing a gap between expected revenue and actual billed revenue. The absence of detailed transaction-level analysis makes it difficult to pinpoint the sources and drivers of this revenue leakage.
 
 There is a need to:
@@ -20,13 +20,13 @@ There is a need to:
 - Quantify the financial impact of leakage  
 - Understand patterns across products, customers, and regions  
 
-# Business Objective 
+## Business Objective 
 The primary objectives of this project are to:
 - Detect and quantify revenue leakage at the transaction level
 - Identify products, customers, and regions contributing disproportionately to revenue loss
 - Analyze the impact of discounts and pricing deviations on revenue realization
 
- #Stakeholder Questions This Project Answers
+ ## Stakeholder Questions This Project Answers
  ## Revenue Assurance and Leakage Control
 - What is the total revenue leakage and how significant is it relative to total revenue?
 - Which transaction types contribute most to revenue leakage?
@@ -60,7 +60,7 @@ The primary objectives of this project are to:
 - Monthly Leakage Trend
 – Tracks recurring or seasonal leakage patterns
 
-#Data Understanding
+## Data Understanding
 - The dataset represents transaction-level financial records for a hypothetical organization. Each record corresponds to a single transaction and includes pricing, billing, customer, and geographic information.
 Key Data Elements:
 - Transaction Details: Transaction ID, Transaction Date
@@ -100,14 +100,14 @@ SQL and Python used to analyze expected vs actual revenue, identify revenue leak
 - Key insights translated into clear visualizations to highlight leakage drivers and high-risk segments.
 - Analytical outputs structured to support finance decision-making and revenue assurance actions.
 
-# Expected Insights
+## Expected Insights
 The analysis is expected to uncover:
 - Key revenue-driving drug categories and products
 - Regional performance disparities and untapped markets
 - Variations in sales representative efficiency
 - Seasonal and temporal demand patterns
 
-# Decision Enablement & Recommendation Framework
+## Decision Enablement & Recommendation Framework
 Based on analytical findings, the project supports finance and leadership teams in:
 - Prioritizing high-leakage products, customers, and regions for immediate corrective action
 - Strengthening pricing and discount controls by identifying misuse and deviation patterns
@@ -115,7 +115,7 @@ Based on analytical findings, the project supports finance and leadership teams 
 - Focusing audit and monitoring efforts on high-risk transactions and recurring leakage drivers
 - Enhancing revenue assurance planning using time-based leakage and volatility trends
 
-# Scope, Constraints & Future Enhancements
+## Scope, Constraints & Future Enhancements
 ## Scope & Constraints
 
 - Analysis is limited to the available transaction-level financial data and does not include upstream pricing approval or downstream collections data.
@@ -127,7 +127,7 @@ Based on analytical findings, the project supports finance and leadership teams 
 - Development of predictive models to proactively flag high-risk transactions prone to revenue leakage.
 - Automation of data ingestion and dashboard refresh through live database or API integrations.
 
-# Tech Stack Used
+## Tech Stack Used
 -	Python: Pandas, NumPy, Matplotlib
 - Power BI: Dashboard, DAX
 - Excel: Raw data
