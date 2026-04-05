@@ -20,4 +20,4 @@ Enable finance and revenue assurance teams to detect, quantify, and reduce reven
 ## Project Blueprint
 📄 This project follows a structured analytics blueprint outlining the business context, problem statement, stakeholder questions, and analytical methodology.
 
-[View Project Blueprint](Project%20Blueprint.md)
+[View Project Blueprint](Project_Blueprint.md)
