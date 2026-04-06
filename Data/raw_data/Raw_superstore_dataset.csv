@@ -1,0 +1,201 @@
+Transaction_ID,Transaction_Date,Customer_ID,Customer_Segment,Region,Product_Category,Quantity,Discount_Percentage,Actual_Billed_Amount
+TXN_1,12-07-2023,CUST_1,Consumer,South,Technology,8,0.19,997.92
+TXN_2,03-11-2023,CUST_2,Corporate,West,Furniture,4,0.24,777.16
+TXN_3,30-06-2023,CUST_3,Consumer,West,Technology,9,0.27,736.28
+TXN_4,19-10-2023,CUST_4,Corporate,South,Technology,5,0.19,800.71
+TXN_5,09-10-2023,CUST_5,Corporate,Central,Furniture,9,0.29,228.82
+TXN_6,29-01-2023,CUST_6,Home Office,Central,Furniture,4,0.18,284.09
+TXN_7,29-05-2023,CUST_7,Corporate,West,Technology,5,0.19,742.66
+TXN_8,24-09-2023,CUST_8,Home Office,Central,Office Supplies,9,0.17,544.58
+TXN_9,23-10-2023,CUST_9,Consumer,East,Technology,8,0.03,779.17
+TXN_10,11-01-2023,CUST_10,Consumer,West,Technology,3,0.22,192.62
+TXN_11,13-06-2023,CUST_11,Consumer,Central,Technology,1,0.16,582.83
+TXN_12,23-04-2023,CUST_12,Consumer,West,Technology,3,0.14,440.94
+TXN_13,06-07-2023,CUST_13,Home Office,East,Furniture,4,0.27,511.3
+TXN_14,22-10-2023,CUST_14,Consumer,West,Technology,2,0.09,643.56
+TXN_15,20-08-2023,CUST_15,Corporate,West,Office Supplies,1,0.16,552.06
+TXN_16,15-08-2023,CUST_16,Corporate,West,Furniture,7,0.21,585.87
+TXN_17,06-11-2023,CUST_17,Corporate,West,Office Supplies,8,0.24,537.72
+TXN_18,08-04-2023,CUST_18,Home Office,East,Office Supplies,7,0.14,468.06
+TXN_19,24-02-2023,CUST_19,Consumer,South,Office Supplies,5,0.25,794.69
+TXN_20,21-04-2023,CUST_20,Consumer,West,Office Supplies,1,0.23,110.98
+TXN_21,01-06-2023,CUST_21,Consumer,West,Furniture,7,0.02,638.6
+TXN_22,03-09-2023,CUST_22,Home Office,Central,Furniture,7,0.01,608.96
+TXN_23,10-03-2023,CUST_23,Corporate,West,Office Supplies,9,0.19,744.56
+TXN_24,08-11-2023,CUST_24,Corporate,Central,Office Supplies,3,0.1,639.13
+TXN_25,16-10-2023,CUST_25,Consumer,South,Furniture,9,0.06,844.12
+TXN_26,07-09-2023,CUST_26,Corporate,East,Furniture,1,0.17,963.17
+TXN_27,05-02-2023,CUST_27,Corporate,East,Furniture,1,0.1,408.27
+TXN_28,27-08-2023,CUST_28,Home Office,South,Technology,4,0.16,304.62
+TXN_29,28-05-2023,CUST_29,Home Office,East,Technology,9,0.14,481.24
+TXN_30,15-08-2023,CUST_30,Home Office,South,Technology,6,0.18,359.14
+TXN_31,01-09-2023,CUST_31,Home Office,South,Office Supplies,3,0.12,653.46
+TXN_32,03-12-2023,CUST_32,Consumer,South,Technology,1,0.21,920.67
+TXN_33,31-12-2023,CUST_33,Home Office,East,Office Supplies,4,0.05,225.2
+TXN_34,20-07-2023,CUST_34,Corporate,Central,Office Supplies,9,0.21,190.72
+TXN_35,03-06-2023,CUST_35,Consumer,South,Technology,3,0.12,330.41
+TXN_36,14-03-2023,CUST_36,Corporate,West,Office Supplies,9,0.26,753.49
+TXN_37,20-07-2023,CUST_37,Corporate,East,Technology,7,0.15,633.67
+TXN_38,23-10-2023,CUST_38,Corporate,South,Technology,4,0.29,191.99
+TXN_39,17-01-2023,CUST_39,Home Office,South,Furniture,3,0.18,926.88
+TXN_40,09-05-2023,CUST_40,Home Office,West,Technology,5,0.07,811.08
+TXN_41,05-08-2023,CUST_41,Consumer,Central,Furniture,5,0.25,120.72
+TXN_42,02-03-2023,CUST_42,Consumer,Central,Technology,3,0.1,686.23
+TXN_43,14-04-2023,CUST_43,Home Office,Central,Technology,9,0.1,794.12
+TXN_44,11-02-2023,CUST_44,Corporate,South,Furniture,4,0.01,436.99
+TXN_45,25-01-2023,CUST_45,Consumer,South,Furniture,5,0.16,162.03
+TXN_46,08-02-2023,CUST_46,Home Office,South,Technology,4,0.16,169.59
+TXN_47,18-10-2023,CUST_47,Home Office,East,Office Supplies,5,0.11,193.82
+TXN_48,11-05-2023,CUST_48,Home Office,West,Furniture,7,0.27,856.4
+TXN_49,17-08-2023,CUST_49,Corporate,South,Office Supplies,9,0.04,919.62
+TXN_50,18-04-2023,CUST_50,Home Office,West,Office Supplies,7,0.1,210.53
+TXN_51,21-06-2023,CUST_51,Home Office,West,Office Supplies,5,0.1,312.32
+TXN_52,12-04-2023,CUST_52,Home Office,Central,Furniture,7,0.03,248.97
+TXN_53,20-12-2023,CUST_53,Home Office,East,Office Supplies,5,0.14,267.69
+TXN_54,12-01-2023,CUST_54,Consumer,South,Furniture,3,0.21,853.74
+TXN_55,02-10-2023,CUST_55,Consumer,Central,Office Supplies,7,0.15,398.93
+TXN_56,11-04-2023,CUST_56,Home Office,Central,Technology,2,0.05,380.3
+TXN_57,13-02-2023,CUST_57,Corporate,South,Technology,9,0.11,304.66
+TXN_58,01-11-2023,CUST_58,Consumer,West,Furniture,1,0,647.1
+TXN_59,17-01-2023,CUST_59,Home Office,Central,Technology,6,0.26,441.38
+TXN_60,26-11-2023,CUST_60,Consumer,West,Technology,7,0.03,769.82
+TXN_61,26-02-2023,CUST_61,Consumer,East,Office Supplies,8,0.18,285.02
+TXN_62,07-11-2023,CUST_62,Corporate,West,Furniture,9,0.3,809.01
+TXN_63,30-10-2023,CUST_63,Home Office,East,Office Supplies,2,0.16,643.35
+TXN_64,12-01-2023,CUST_64,Home Office,West,Office Supplies,2,0.28,202.84
+TXN_65,14-11-2023,CUST_65,Corporate,Central,Office Supplies,5,0.07,473.05
+TXN_66,21-03-2023,CUST_66,Corporate,Central,Office Supplies,5,0.23,877.17
+TXN_67,04-08-2023,CUST_67,Home Office,East,Office Supplies,6,0.16,930.66
+TXN_68,05-12-2023,CUST_68,Home Office,South,Office Supplies,3,0.22,519.13
+TXN_69,21-09-2023,CUST_69,Corporate,East,Office Supplies,8,0.02,532.75
+TXN_70,29-05-2023,CUST_70,Consumer,East,Furniture,1,0.04,926.61
+TXN_71,22-03-2023,CUST_71,Consumer,West,Technology,6,0.04,628.36
+TXN_72,03-08-2023,CUST_72,Corporate,West,Office Supplies,4,0.21,129.56
+TXN_73,17-07-2023,CUST_73,Consumer,East,Office Supplies,1,0.25,921.47
+TXN_74,19-07-2023,CUST_74,Corporate,Central,Office Supplies,7,0.22,323.4
+TXN_75,25-01-2023,CUST_75,Consumer,West,Office Supplies,9,0.01,619.87
+TXN_76,30-03-2023,CUST_76,Consumer,South,Office Supplies,4,0.26,248.96
+TXN_77,25-09-2023,CUST_77,Home Office,West,Office Supplies,4,0.11,130.49
+TXN_78,23-05-2023,CUST_78,Home Office,West,Technology,6,0.12,380.33
+TXN_79,28-02-2023,CUST_79,Consumer,South,Technology,3,0.03,802.45
+TXN_80,31-12-2023,CUST_80,Consumer,East,Office Supplies,6,0.22,349.83
+TXN_81,26-01-2023,CUST_81,Home Office,South,Technology,7,0.05,298.09
+TXN_82,16-02-2023,CUST_82,Home Office,East,Furniture,3,0.17,291.41
+TXN_83,15-10-2023,CUST_83,Home Office,East,Office Supplies,7,0.25,563.66
+TXN_84,23-09-2023,CUST_84,Corporate,East,Furniture,3,0.03,977.99
+TXN_85,16-01-2023,CUST_85,Consumer,South,Furniture,2,0.16,513.09
+TXN_86,18-07-2023,CUST_86,Home Office,East,Office Supplies,4,0.07,601.57
+TXN_87,09-10-2023,CUST_87,Consumer,Central,Technology,8,0.1,874.57
+TXN_88,27-03-2023,CUST_88,Corporate,South,Furniture,9,0.14,581.56
+TXN_89,07-09-2023,CUST_89,Corporate,Central,Office Supplies,7,0.11,266.02
+TXN_90,27-09-2023,CUST_90,Home Office,East,Furniture,1,0.19,369.64
+TXN_91,01-12-2023,CUST_91,Corporate,West,Furniture,3,0.14,378.94
+TXN_92,27-04-2023,CUST_92,Consumer,East,Furniture,9,0.18,457.59
+TXN_93,07-01-2023,CUST_93,Home Office,Central,Furniture,1,0.22,484.11
+TXN_94,17-05-2023,CUST_94,Consumer,Central,Technology,9,0.17,819.8
+TXN_95,25-06-2023,CUST_95,Consumer,South,Furniture,8,0.18,414.45
+TXN_96,24-11-2023,CUST_96,Corporate,West,Furniture,1,0.17,521.41
+TXN_97,11-11-2023,CUST_97,Corporate,South,Furniture,6,0.11,662.48
+TXN_98,03-08-2023,CUST_98,Corporate,Central,Technology,5,0.1,439.95
+TXN_99,23-03-2023,CUST_99,Corporate,East,Furniture,6,0.27,852.91
+TXN_100,11-08-2023,CUST_100,Corporate,West,Furniture,5,0.18,628.71
+TXN_101,13-04-2023,CUST_101,Home Office,East,Technology,6,0.07,364.64
+TXN_102,30-09-2023,CUST_102,Consumer,East,Technology,5,0.15,742.65
+TXN_103,14-01-2023,CUST_103,Consumer,West,Technology,5,0.1,574.88
+TXN_104,08-06-2023,CUST_104,Consumer,South,Furniture,4,0.28,581.01
+TXN_105,01-06-2023,CUST_105,Consumer,East,Technology,3,0,532.98
+TXN_106,18-04-2023,CUST_106,Corporate,Central,Technology,3,0.07,547.31
+TXN_107,07-07-2023,CUST_107,Consumer,East,Furniture,4,0.11,788.82
+TXN_108,28-10-2023,CUST_108,Home Office,West,Technology,9,0.15,192.68
+TXN_109,08-04-2023,CUST_109,Home Office,West,Furniture,2,0.26,400.93
+TXN_110,11-05-2023,CUST_110,Consumer,West,Office Supplies,9,0.03,167.95
+TXN_111,20-10-2023,CUST_111,Consumer,South,Technology,1,0.24,777.92
+TXN_112,20-06-2023,CUST_112,Home Office,East,Office Supplies,1,0.02,345.07
+TXN_113,02-07-2023,CUST_113,Home Office,South,Furniture,5,0.25,907.69
+TXN_114,30-12-2023,CUST_114,Corporate,South,Technology,6,0.02,573.92
+TXN_115,08-02-2023,CUST_115,Home Office,West,Furniture,6,0.01,820.67
+TXN_116,15-01-2023,CUST_116,Corporate,West,Office Supplies,3,0.21,981.04
+TXN_117,04-01-2023,CUST_117,Corporate,South,Furniture,7,0.3,855.81
+TXN_118,15-12-2023,CUST_118,Corporate,East,Technology,9,0.27,880.29
+TXN_119,29-07-2023,CUST_119,Corporate,Central,Technology,8,0.17,467.19
+TXN_120,10-06-2023,CUST_120,Corporate,South,Office Supplies,6,0.28,596.55
+TXN_121,16-01-2023,CUST_121,Consumer,East,Furniture,8,0,328.5
+TXN_122,18-04-2023,CUST_122,Home Office,West,Technology,5,0.29,276.5
+TXN_123,07-11-2023,CUST_123,Corporate,West,Office Supplies,8,0.15,554.96
+TXN_124,15-08-2023,CUST_124,Home Office,East,Technology,4,0.22,635.54
+TXN_125,19-06-2023,CUST_125,Home Office,Central,Technology,8,0.25,405.34
+TXN_126,03-02-2023,CUST_126,Corporate,West,Furniture,2,0.22,612.5
+TXN_127,08-09-2023,CUST_127,Consumer,West,Technology,5,0.16,898.71
+TXN_128,04-09-2023,CUST_128,Corporate,West,Furniture,9,0.14,601.05
+TXN_129,26-09-2023,CUST_129,Consumer,East,Technology,4,0.25,748.73
+TXN_130,21-05-2023,CUST_130,Home Office,South,Office Supplies,6,0.06,824.78
+TXN_131,01-10-2023,CUST_131,Consumer,West,Technology,1,0.29,989.86
+TXN_132,06-04-2023,CUST_132,Consumer,South,Furniture,9,0.21,642.88
+TXN_133,15-08-2023,CUST_133,Consumer,Central,Furniture,1,0.06,826.17
+TXN_134,08-02-2023,CUST_134,Home Office,West,Office Supplies,5,0.22,966.38
+TXN_135,29-10-2023,CUST_135,Home Office,West,Technology,4,0.16,949.97
+TXN_136,29-01-2023,CUST_136,Consumer,Central,Technology,3,0.21,226.97
+TXN_137,14-11-2023,CUST_137,Consumer,West,Office Supplies,6,0.23,465.75
+TXN_138,02-09-2023,CUST_138,Corporate,South,Technology,2,0.03,391.59
+TXN_139,24-08-2023,CUST_139,Consumer,East,Technology,3,0.15,178.23
+TXN_140,04-07-2023,CUST_140,Corporate,South,Furniture,5,0.28,669.92
+TXN_141,29-09-2023,CUST_141,Consumer,East,Technology,9,0.1,762.31
+TXN_142,24-08-2023,CUST_142,Corporate,East,Technology,2,0.18,863.32
+TXN_143,27-08-2023,CUST_143,Home Office,South,Office Supplies,8,0.11,210.5
+TXN_144,23-09-2023,CUST_144,Consumer,South,Office Supplies,2,0.14,888.8
+TXN_145,25-12-2023,CUST_145,Consumer,South,Furniture,5,0.16,678.63
+TXN_146,06-12-2023,CUST_146,Consumer,South,Technology,7,0.16,733.55
+TXN_147,06-03-2023,CUST_147,Consumer,Central,Technology,8,0.06,919.56
+TXN_148,26-06-2023,CUST_148,Corporate,West,Technology,1,0.21,662.29
+TXN_149,03-01-2023,CUST_149,Consumer,East,Furniture,6,0.03,402.28
+TXN_150,22-05-2023,CUST_150,Home Office,South,Furniture,1,0.04,842.6
+TXN_151,07-06-2023,CUST_151,Home Office,South,Office Supplies,2,0,426.75
+TXN_152,20-11-2023,CUST_152,Consumer,South,Furniture,1,0.04,130.81
+TXN_153,26-05-2023,CUST_153,Home Office,Central,Technology,5,0.14,847.59
+TXN_154,20-10-2023,CUST_154,Consumer,South,Technology,9,0.18,410.67
+TXN_155,02-06-2023,CUST_155,Consumer,South,Furniture,6,0.24,796.45
+TXN_156,12-07-2023,CUST_156,Home Office,South,Technology,1,0.03,426.48
+TXN_157,14-03-2023,CUST_157,Consumer,West,Technology,1,0.26,874.96
+TXN_158,01-11-2023,CUST_158,Home Office,Central,Furniture,2,0.22,297.56
+TXN_159,10-12-2023,CUST_159,Corporate,South,Furniture,9,0.12,977.09
+TXN_160,20-05-2023,CUST_160,Consumer,East,Technology,3,0.28,801.78
+TXN_161,06-07-2023,CUST_161,Corporate,East,Technology,1,0.3,202.81
+TXN_162,20-10-2023,CUST_162,Home Office,East,Technology,5,0.06,609.2
+TXN_163,02-03-2023,CUST_163,Corporate,Central,Office Supplies,7,0.11,986.83
+TXN_164,17-07-2023,CUST_164,Corporate,Central,Office Supplies,6,0.28,523.96
+TXN_165,22-10-2023,CUST_165,Home Office,East,Office Supplies,1,0.22,263.9
+TXN_166,15-11-2023,CUST_166,Corporate,South,Furniture,5,0.01,536.3
+TXN_167,29-10-2023,CUST_167,Corporate,Central,Office Supplies,5,0.23,561.21
+TXN_168,10-12-2023,CUST_168,Home Office,East,Furniture,6,0.25,767.52
+TXN_169,11-01-2023,CUST_169,Corporate,East,Furniture,3,0.23,728.96
+TXN_170,03-03-2023,CUST_170,Home Office,South,Office Supplies,5,0.24,462.3
+TXN_171,29-11-2023,CUST_171,Corporate,West,Office Supplies,7,0.25,296.22
+TXN_172,14-08-2023,CUST_172,Home Office,Central,Office Supplies,5,0.06,680.55
+TXN_173,02-06-2023,CUST_173,Home Office,South,Technology,5,0.07,479.53
+TXN_174,18-07-2023,CUST_174,Corporate,East,Office Supplies,5,0.19,219.05
+TXN_175,21-02-2023,CUST_175,Corporate,East,Technology,3,0.27,910.52
+TXN_176,17-09-2023,CUST_176,Corporate,South,Furniture,1,0.09,722.1
+TXN_177,28-02-2023,CUST_177,Consumer,Central,Technology,5,0.18,714.87
+TXN_178,13-03-2023,CUST_178,Consumer,West,Office Supplies,9,0.2,840.33
+TXN_179,28-05-2023,CUST_179,Consumer,West,Furniture,1,0.14,576.7
+TXN_180,15-12-2023,CUST_180,Home Office,East,Furniture,3,0.21,833.55
+TXN_181,04-03-2023,CUST_181,Corporate,Central,Furniture,4,0.27,548.28
+TXN_182,06-11-2023,CUST_182,Home Office,West,Technology,1,0.19,160.46
+TXN_183,31-08-2023,CUST_183,Consumer,Central,Office Supplies,1,0.16,464.72
+TXN_184,26-11-2023,CUST_184,Corporate,Central,Furniture,8,0.13,547.72
+TXN_185,17-04-2023,CUST_185,Home Office,East,Furniture,2,0.17,748.18
+TXN_186,14-08-2023,CUST_186,Corporate,West,Furniture,8,0.11,195.92
+TXN_187,09-11-2023,CUST_187,Home Office,South,Technology,7,0.12,226.02
+TXN_188,06-08-2023,CUST_188,Corporate,East,Technology,2,0.16,337.32
+TXN_189,29-08-2023,CUST_189,Consumer,West,Office Supplies,6,0.02,339.85
+TXN_190,16-09-2023,CUST_190,Consumer,West,Technology,6,0.07,758.97
+TXN_191,19-09-2023,CUST_191,Corporate,West,Furniture,3,0.16,325.66
+TXN_192,05-01-2023,CUST_192,Home Office,West,Office Supplies,2,0.13,669.79
+TXN_193,18-09-2023,CUST_193,Consumer,West,Furniture,1,0.1,544.85
+TXN_194,23-02-2023,CUST_194,Consumer,Central,Furniture,6,0.22,615.96
+TXN_195,16-02-2023,CUST_195,Consumer,East,Technology,5,0.21,854.3
+TXN_196,03-08-2023,CUST_196,Corporate,Central,Office Supplies,9,0.05,463.94
+TXN_197,26-06-2023,CUST_197,Corporate,South,Technology,1,0.26,793.82
+TXN_198,09-01-2023,CUST_198,Home Office,West,Technology,7,0.15,479.83
+TXN_199,09-04-2023,CUST_199,Home Office,East,Office Supplies,5,0.22,418.48
+TXN_200,20-01-2023,CUST_200,Home Office,West,Furniture,5,0.17,962.76
